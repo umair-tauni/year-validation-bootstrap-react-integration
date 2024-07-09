@@ -1,10 +1,13 @@
-import React from 'react';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from "react";
+import "./App.css";
+import YearValidation from "./YearValidation";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <h1>React Application</h1>
+    <div className="App">
+      <YearValidation />
+    </div>
   );
 }
 
